@@ -45,10 +45,12 @@ Adicionalmente, se recomienda usar VSCode como editor de código.
     Root : POST /app/views/index.php
 
   |Parameter|	|Type|	|Description|
+  | --------| ---- |--|-----------|
   |username	|string (query)	|Default value : None
   |password	|string (query)	|Default value : None
 ## Responses
   |Code	|Description|
+  | ----| ------------- |
   |200	|Successful Response (Datos de los usuarios)
   |400	|Not found
 # Conceptos y tecnologías utilizados:
