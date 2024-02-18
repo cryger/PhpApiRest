@@ -42,11 +42,11 @@ Adicionalmente, se recomienda usar VSCode como editor de código.
     4. Una vez haya realizado todos los pasos anteriores, podrá abrir la ruta en la cual se encuentra su proyecto y allí poder acceder a todas las funcionalidades de la aplicación.
 
 # API Reference
-Root
-  POST /app/views/index.php
-    #Parameter	#Type	#Description
-      username	string (query)	Default value : None
-      password	string (query)	Default value : None
+    Root : POST /app/views/index.php
+
+#Parameter	#Type	#Description
+          username	string (query)	Default value : None
+          password	string (query)	Default value : None
 ##Responses
   #Code	#Description
    200	Successful Response (Datos de los usuarios)
